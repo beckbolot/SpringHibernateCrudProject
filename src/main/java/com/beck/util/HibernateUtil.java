@@ -22,7 +22,7 @@ public class HibernateUtil {
                 settings.put(Environment.DRIVER, "org.postgresql.Driver");
                 settings.put(Environment.URL, "jdbc:postgresql://localhost:5432/postgres");
                 settings.put(Environment.USER, "postgres");
-                settings.put(Environment.PASS, "daniel2013");
+                settings.put(Environment.PASS, "secret");
                 settings.put(Environment.DIALECT, "org.hibernate.dialect.PostgreSQL9Dialect");
                 settings.put(Environment.SHOW_SQL, "true");
                 settings.put(Environment.HBM2DDL_AUTO, "create");
